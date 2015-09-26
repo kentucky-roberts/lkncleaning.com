@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
     <img src="https://github.com/octobercms/october/blob/master/themes/demo/assets/images/october.png?raw=true" alt="October" width="25%" height="25%" />
 </p>
@@ -54,3 +55,6 @@ The OctoberCMS platform is open-sourced software licensed under the [MIT license
 ### Contributing
 
 Before sending a Pull Request, be sure to review the [Contributing Guidelines](CONTRIBUTING.md) first.
+=======
+# lkncleaning.com
+>>>>>>> 33990e80eafa375164d8622786e8c754a7ef8837
