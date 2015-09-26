@@ -1,0 +1,17 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    active:
+        label: filipac.themepreview::lang.settings.active
+        type: checkbox
+        default: false
+    theme:
+        label: filipac.themepreview::lang.settings.theme
+        type: dropdown
+        default:
+    permission:
+            label: filipac.themepreview::lang.settings.permission
+            type: dropdown
+            default: cms.manage_themes

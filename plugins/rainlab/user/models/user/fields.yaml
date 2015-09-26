@@ -1,0 +1,56 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    name:
+        label: rainlab.user::lang.user.name
+        span: auto
+
+    surname:
+        label: rainlab.user::lang.user.surname
+        span: auto
+
+tabs:
+    fields:
+
+        email:
+            span: full
+            label: rainlab.user::lang.user.email
+            tab: rainlab.user::lang.user.account
+
+        password:
+            type: password
+            span: left
+            label: rainlab.user::lang.user.reset_password
+            comment: rainlab.user::lang.user.reset_password_comment
+            tab: rainlab.user::lang.user.account
+
+        password_confirmation:
+            type: password
+            span: right
+            label: rainlab.user::lang.user.confirm_password
+            comment: rainlab.user::lang.user.confirm_password_comment
+            tab: rainlab.user::lang.user.account
+
+        username:
+            span: left
+            label: rainlab.user::lang.user.username
+            hidden: true
+
+        groups:
+            label: Groups
+            tab: rainlab.user::lang.user.account
+            type: relation
+            emptyOption: There are no user groups available.
+
+secondaryTabs:
+    fields:
+
+        avatar:
+            label: rainlab.user::lang.user.avatar
+            type: fileupload
+            mode: image
+            imageHeight: 260
+            imageWidth: 260
